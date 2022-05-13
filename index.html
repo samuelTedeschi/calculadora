@@ -11,30 +11,32 @@
 </head>
 <body>
     <main class="contener">
-        <input type="number" value="0" class="caixa-texto">
+        <input type="text"  class="caixa-texto">
         
         <div class="teclado">
-            <button class="op-teclado" op="clear">C</button>
-            <button class="op-teclado" op="negate">-/+</button>
-            <button class="op-teclado" op="percent">%</button>
-            <button class="op-teclado" op="divide">/</button>
+            <button class="op-teclado" data-action="clear">C</button>
+            <button class="op-teclado" data-action="negate">-/+</button>
+            <button class="op-teclado" data-action="percent">%</button>
+            <button class="op-teclado" data-action="divide">/</button>
             <button class="numero">7</button>
             <button class="numero">8</button>
             <button class="numero">9</button>
-            <button class="op-teclado" op="multiply">x</button>
+            <button class="op-teclado" data-action="multiply">x</button>
             <button class="numero">4</button>
             <button class="numero">5</button>
             <button class="numero">6</button>
-            <button class="op-teclado" op="subtract">-</button>
+            <button class="op-teclado" data-action="subtract">-</button>
             <button class="numero">1</button>
             <button class="numero">2</button>
             <button class="numero">3</button>
-            <button class="op-teclado" op="add">+</button>
+            <button class="op-teclado" data-action="add">+</button>
             <samp></samp>
             <button class="numero">0</button>
-            <button class="numero">,</button>
-            <button class="igual">=</button>
+            <button class="numero" data-action="decimal">.</button>
+            <button class="igual" data-action="calculate">=</button>
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
