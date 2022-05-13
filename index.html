@@ -10,14 +10,10 @@
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <main class="contener">
-        <input type="text"  class="caixa-texto">
+    <main class="calculator">
+        <div class="calculator__display">0</div>
         
-        <div class="teclado">
-            <button class="op-teclado" data-action="clear">C</button>
-            <button class="op-teclado" data-action="negate">-/+</button>
-            <button class="op-teclado" data-action="percent">%</button>
-            <button class="op-teclado" data-action="divide">/</button>
+        <div class="calculator__keys">
             <button class="numero">7</button>
             <button class="numero">8</button>
             <button class="numero">9</button>
@@ -30,10 +26,10 @@
             <button class="numero">2</button>
             <button class="numero">3</button>
             <button class="op-teclado" data-action="add">+</button>
-            <samp></samp>
+            <button class="op-teclado" data-action="clear" style="color:red;">C</button>
             <button class="numero">0</button>
             <button class="numero" data-action="decimal">.</button>
-            <button class="igual" data-action="calculate">=</button>
+            <button class="calculate" data-action="calculate">=</button>
         </div>
     </main>
 

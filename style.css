@@ -1,4 +1,59 @@
-.teclado{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+body{
+    background: whitesmoke;
 }
+
+.calculator{
+    background: #0f0f0f;
+    padding: 20px;
+    margin: 50px 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px lightblue;
+}
+
+.calculator__display{
+    display: flex;
+    justify-content: end;
+    background: whitesmoke;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px  lightblue;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.calculator__keys{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 80px;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.numero {
+    background: whitesmoke;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    box-shadow: 3px 3px 3px lightblue;
+}
+
+.op-teclado{
+    background: whitesmoke;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    box-shadow: 3px 3px 3px lightblue;
+    color: darkgreen;
+}
+
+.calculate{
+    background: whitesmoke;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    box-shadow: 3px 3px 3px lightblue;
+    color: darkgreen;
+}
+
