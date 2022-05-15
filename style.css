@@ -1,24 +1,22 @@
 body{
-    background: whitesmoke;
+    background: lightgray;
 }
 
 .calculator{
-    background: #0f0f0f;
-    padding: 20px;
-    margin: 20px 500px;
-    height: 580px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px lightblue;
+    background: #3C3C40;
+    padding: 15px;
+    margin: 20px 450px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #BFADA8;
 }
 
 .calculator__display{
     display: flex;
     justify-content: end;
-    background: whitesmoke;
+    background: #F2F2F2;
     color: black;
-    border: solid 1px black;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px  lightgoldenrodyellow;
     padding: 15px;
     font-size: 2rem;
 }
@@ -32,52 +30,54 @@ body{
 }
 
 .numero {
-    background: whitesmoke;
+    background: #3C3C40;
+    color: #F2F2F2;
     border-style: none;
     border-radius: 10px;
     font-size: 2rem;
-    box-shadow: 2px 2px 5px lightyellow;
+    box-shadow: 2px 2px 5px gray;
 }
 .numero:hover{
-    background: lightyellow;
+    background: lightgray;
     cursor: pointer;
+    color: #3C3C40;
 }
 .key--operator{
-    background: darkgreen;
+    background: #3C3C40;
     border-style: none;
     border-radius: 10px;
     font-size: 2rem;
-    box-shadow: 2px 2px 5px lightgreen;
-    color: whitesmoke;
+    box-shadow: 2px 2px 5px gray;
+    color: #03A688;
 }
 .key--operator:hover{
-    background: green;
+    background: lightgray;
     cursor: pointer;
 }
 
 .key--equal{
-    background: darkgreen;
+    background: #3C3C40;
     border-style: none;
     border-radius: 10px;
     font-size: 2rem;
-    box-shadow: 2px 2px 5px lightgreen;
-    color: whitesmoke;
+    box-shadow: 2px 2px 5px gray;
+    color: #03A688;
 }
 .key--equal:hover{
-    background: darkgreen;
+    background: lightgray;
     cursor: pointer;
 }
 
 .apaga{
-    background: darkred;
+    background: #3C3C40;
     border-style: none;
     border-radius: 10px;
     font-size: 2rem;
-    box-shadow: 2px 2px 5px lightcoral;
-    color: whitesmoke;
+    box-shadow: 2px 2px 5px gray;
+    color: red;
 }
 .apaga:hover{
-    background: red;
+    background: lightgray;
     cursor: pointer;
 }
 
