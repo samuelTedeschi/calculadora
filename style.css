@@ -81,3 +81,9 @@ body{
     cursor: pointer;
 }
 
+.rodape{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: monospace;
+}
